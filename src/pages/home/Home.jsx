@@ -1,32 +1,14 @@
+// import Stories from "../../components/stories/Stories"
+// import Posts from "../../components/posts/Posts"
+// import Share from "../../components/share/Share"
 import './home.scss'
-
-import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
-      <h1>HOME</h1>
+    <div className='home'>
+      {/* <Stories/>
+      <Share/>
+      <Posts/> */}
     </div>
   )
 }

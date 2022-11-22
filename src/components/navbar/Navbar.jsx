@@ -8,8 +8,12 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
 import PersonOutlinedIcon from '@mui/icons-material/Person2Outlined'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined'
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { DarkModeContextProvider } from '../../context/darkModeContext'
 
 const Navbar = () => {
+  const { toggle } = useContext(DarkModeContextProvider)
+
   return (
     <div className='navbar'>
       <div className='left'>
