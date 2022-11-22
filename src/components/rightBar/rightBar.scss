@@ -7,7 +7,14 @@
     top: 70px;
     height: calc(100vh - 70px);
     overflow: scroll;
-    background-color: themed(bgSoft);
+    background-color: themed('bgSoft');
+
+    @include mobile {
+      display: none;
+    }
+    @include tablet {
+      display: none;
+    }
 
     &::-webkit-scrollbar {
       display: none;
@@ -63,7 +70,6 @@
 
             span {
               font-weight: 500;
-              color: #000;
               color: themed('textColor');
             }
           }
@@ -76,7 +82,7 @@
             button {
               border: none;
               padding: 5px;
-              color: #fff;
+              color: white;
               cursor: pointer;
 
               &:first-child {
