@@ -3,8 +3,8 @@ import FacebookTwoToneIcon from '@mui/icons-material/FacebookTwoTone'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import InstagramIcon from '@mui/icons-material/Instagram'
 // import PinterestIcon from '@mui/icons-material/Pinterest'
-import TwitterIcon from '@mui/icons-material/Twitter'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import TwitterIcon from '@mui/icons-material/Twitter'
 import PlaceIcon from '@mui/icons-material/Place'
 import LanguageIcon from '@mui/icons-material/Language'
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
@@ -32,7 +32,7 @@ const Profile = () => {
             <a href='http://facebook.com'>
               <FacebookTwoToneIcon fontSize='large' />
             </a>
-            <a href='http://instagram.com'>
+            <a href='https://www.instagram.com/rtmconsulting/'>
               <InstagramIcon fontSize='large' />
             </a>
             <a href='http://twitter.com/babsddev'>
@@ -41,7 +41,7 @@ const Profile = () => {
             <a href='https://www.linkedin.com/in/babagbemi-ajayi/'>
               <LinkedInIcon fontSize='large' />
             </a>
-            <a href='http://github.com/babsddev'>
+            <a href='https://github.com/babsddev'>
               <GitHubIcon fontSize='large' />
             </a>
           </div>
@@ -54,7 +54,7 @@ const Profile = () => {
               </div>
               <div className='item'>
                 <LanguageIcon />
-                <span>babs.dev</span>
+                <span>babagbemi.ajayi@decagon.dev</span>
               </div>
             </div>
             <button>follow</button>
