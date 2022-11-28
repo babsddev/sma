@@ -10,7 +10,6 @@ const Register = () => {
     password: '',
     name: '',
   })
-
   const [err, setErr] = useState(null)
 
   const handleChange = (e) => {
@@ -26,6 +25,7 @@ const Register = () => {
       setErr(err.response.data)
     }
   }
+
   console.log(err)
 
   return (
@@ -70,7 +70,7 @@ const Register = () => {
               name='name'
               onChange={handleChange}
             />
-            {/* {err && err} */}
+            {err && err}
             <button onClick={handleClick}>Register</button>
           </form>
         </div>
